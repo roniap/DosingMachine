@@ -27880,27 +27880,6 @@ distributor Farnell 149-452</description>
 <text x="-3.81" y="-6.35" size="1.27" layer="27">&gt;VALUE</text>
 <text x="-1.27" y="-2.54" size="0.6096" layer="51">B35 N61</text>
 </package>
-<package name="AMP_227161" urn="urn:adsk.eagle:footprint:6184/1" library_version="1">
-<description>&lt;b&gt;JACK,  RIGHT ANGLE, 50 OHM, PCB, BNC&lt;/b&gt;&lt;p&gt;
-Source: amp_227161.pdf</description>
-<wire x1="-7.275" y1="-6.875" x2="7.275" y2="-6.875" width="0.2032" layer="21"/>
-<wire x1="7.275" y1="-6.875" x2="7.275" y2="7.275" width="0.2032" layer="21"/>
-<wire x1="7.275" y1="7.275" x2="-7.275" y2="7.275" width="0.2032" layer="21"/>
-<wire x1="-7.275" y1="7.275" x2="-7.275" y2="-6.875" width="0.2032" layer="21"/>
-<wire x1="-6.4" y1="7.375" x2="-6.4" y2="16.025" width="0.2032" layer="21"/>
-<wire x1="-6.4" y1="16.025" x2="6.4" y2="16.025" width="0.2032" layer="21"/>
-<wire x1="6.4" y1="16.025" x2="6.4" y2="7.35" width="0.2032" layer="21"/>
-<wire x1="-4.9" y1="16.15" x2="-4.9" y2="28.475" width="0.2032" layer="21"/>
-<wire x1="-4.9" y1="28.475" x2="4.9" y2="28.475" width="0.2032" layer="21"/>
-<wire x1="4.9" y1="28.475" x2="4.9" y2="16.125" width="0.2032" layer="21"/>
-<circle x="0" y="23.94" radius="1.26" width="0" layer="21"/>
-<pad name="1" x="0" y="-5.08" drill="0.9" diameter="1.27"/>
-<pad name="2" x="-2.54" y="-5.08" drill="0.9" diameter="1.27"/>
-<text x="-6.985" y="-8.89" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-8.89" size="1.27" layer="27">&gt;VALUE</text>
-<hole x="-5.08" y="0" drill="2"/>
-<hole x="5.08" y="0" drill="2"/>
-</package>
 </packages>
 <packages3d>
 <package3d name="R141426" urn="urn:adsk.eagle:package:6203/1" type="box" library_version="1">
@@ -27919,13 +27898,6 @@ www.macom.com
 distributor Farnell 149-452</description>
 <packageinstances>
 <packageinstance name="B35N61"/>
-</packageinstances>
-</package3d>
-<package3d name="AMP_227161" urn="urn:adsk.eagle:package:6212/1" type="box" library_version="1">
-<description>JACK,  RIGHT ANGLE, 50 OHM, PCB, BNC
-Source: amp_227161.pdf</description>
-<packageinstances>
-<packageinstance name="AMP_227161"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -27992,67 +27964,6 @@ distributor Farnell 149-452</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="?227161*" urn="urn:adsk.eagle:component:6239/1" prefix="X" library_version="1">
-<description>&lt;b&gt;JACK,  RIGHT ANGLE, 50 OHM, PCB, BNC&lt;/b&gt;&lt;p&gt;
-Source: amp_227161.pdf</description>
-<gates>
-<gate name="G$1" symbol="BU-BNC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="1-" package="AMP_227161">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:6212/1"/>
-</package3dinstances>
-<technologies>
-<technology name="-0">
-<attribute name="MF" value="TYCO ELECTRONICS" constant="no"/>
-<attribute name="MPN" value="1-227161" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="33B3200" constant="no"/>
-</technology>
-<technology name="-2">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="-6">
-<attribute name="MF" value="TYCO ELECTRONICS" constant="no"/>
-<attribute name="MPN" value="1-227161-6" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="09H7854" constant="no"/>
-</technology>
-<technology name="-7">
-<attribute name="MF" value="TYCO ELECTRONICS" constant="no"/>
-<attribute name="MPN" value="1-227161-7" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="09H7855" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="" package="AMP_227161">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:6212/1"/>
-</package3dinstances>
-<technologies>
-<technology name="-8">
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
@@ -28145,8 +28056,6 @@ Source: amp_227161.pdf</description>
 <part name="X7" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK500/4" device="" package3d_urn="urn:adsk.eagle:package:9887/1"/>
 <part name="X8" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BN35N61" device="" package3d_urn="urn:adsk.eagle:package:6201/1"/>
 <part name="X2" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="BN35N61" device="" package3d_urn="urn:adsk.eagle:package:6201/1"/>
-<part name="X9" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="?227161*" device="" package3d_urn="urn:adsk.eagle:package:6212/1" technology="-8"/>
-<part name="X10" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="?227161*" device="" package3d_urn="urn:adsk.eagle:package:6212/1" technology="-8"/>
 </parts>
 <sheets>
 <sheet>
@@ -28469,14 +28378,6 @@ Source: amp_227161.pdf</description>
 <attribute name="VALUE" x="81.28" y="137.16" size="1.778" layer="96" rot="R270"/>
 <attribute name="NAME" x="89.662" y="137.16" size="1.778" layer="95" rot="R270"/>
 </instance>
-<instance part="X9" gate="G$1" x="81.28" y="-5.08" rot="R270">
-<attribute name="VALUE" x="76.2" y="-2.54" size="1.778" layer="96" rot="R270"/>
-<attribute name="NAME" x="84.582" y="-2.54" size="1.778" layer="95" rot="R270"/>
-</instance>
-<instance part="X10" gate="G$1" x="86.36" y="144.78" rot="R270">
-<attribute name="VALUE" x="81.28" y="147.32" size="1.778" layer="96" rot="R270"/>
-<attribute name="NAME" x="89.662" y="147.32" size="1.778" layer="95" rot="R270"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -28617,11 +28518,8 @@ Source: amp_227161.pdf</description>
 <wire x1="78.74" y1="116.84" x2="78.74" y2="96.52" width="0.1524" layer="91"/>
 <junction x="78.74" y="96.52"/>
 <pinref part="X2" gate="G$1" pin="2"/>
-<wire x1="83.82" y1="132.08" x2="83.82" y2="127" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="132.08" x2="83.82" y2="116.84" width="0.1524" layer="91"/>
 <junction x="83.82" y="116.84"/>
-<pinref part="X10" gate="G$1" pin="2"/>
-<wire x1="83.82" y1="127" x2="83.82" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="142.24" x2="83.82" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="AGND9" gate="VR1" pin="AGND"/>
@@ -28681,11 +28579,8 @@ Source: amp_227161.pdf</description>
 <wire x1="86.36" y1="-50.8" x2="86.36" y2="-48.26" width="0.1524" layer="91"/>
 <junction x="86.36" y="-48.26"/>
 <pinref part="X8" gate="G$1" pin="2"/>
-<wire x1="78.74" y1="-17.78" x2="78.74" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="-17.78" x2="78.74" y2="-30.48" width="0.1524" layer="91"/>
 <junction x="78.74" y="-30.48"/>
-<pinref part="X9" gate="G$1" pin="2"/>
-<wire x1="78.74" y1="-20.32" x2="78.74" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="-7.62" x2="78.74" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -28960,11 +28855,8 @@ Source: amp_227161.pdf</description>
 <junction x="88.9" y="76.2"/>
 <junction x="83.82" y="96.52"/>
 <pinref part="X2" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="132.08" x2="86.36" y2="127" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="132.08" x2="86.36" y2="116.84" width="0.1524" layer="91"/>
 <junction x="86.36" y="116.84"/>
-<pinref part="X10" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="127" x2="86.36" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="142.24" x2="86.36" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -28979,9 +28871,6 @@ Source: amp_227161.pdf</description>
 <pinref part="X8" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="-17.78" x2="81.28" y2="-30.48" width="0.1524" layer="91"/>
 <junction x="81.28" y="-30.48"/>
-<pinref part="X9" gate="G$1" pin="1"/>
-<wire x1="81.28" y1="-7.62" x2="81.28" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="81.28" y="-17.78"/>
 </segment>
 </net>
 <net name="N$24" class="0">
